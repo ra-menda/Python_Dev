@@ -7,14 +7,11 @@
             "label": "python build",
             "type": "shell",
             "command": "${config:python.pythonPath}",
-            "args": [
-                "${file}"
-            ],
+            "args": ["${file}"],
             "group": {
                 "kind": "build",
                 "isDefault": true
-            },
-            "problemMatcher": []
+            }
         }
     ]
 }
